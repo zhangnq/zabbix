@@ -1,3 +1,8 @@
 eclipse.preferences.version=1
 encoding//ExternalScripts/mongodb_select_time.py=utf-8
 encoding//scripts/flink_web.py=utf-8
+encoding//scripts/qiueer/__init__.py=utf-8
+encoding//scripts/qiueer/python/cmds.py=utf-8
+encoding//scripts/qiueer/python/utils.py=utf-8
+encoding//scripts/redis.py=UTF8
+encoding//scripts/tomcat_thread_discovery.py=utf-8
