@@ -7,11 +7,12 @@
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 
-pid=$1
+tomcat_path=$1
 user=$2
 
 STATS=(NEW:0 RUNNABLE:0 BLOCKED:0 WAITING:0 TIMED_WAITING:0 TERMINATED:0 TOTAL:0)
 
+pid=`ps -ef|grep "java .*$tomcat_path"|grep -v grep|awk '{print $2}'`
 if [ $pid ];then
   STATUS=`su - $user -c "jstack $pid|grep -i \"java.lang.Thread.State:\""|awk '{print $2}'|sort|uniq -c|awk '{print $2":"$1}'`
 fi

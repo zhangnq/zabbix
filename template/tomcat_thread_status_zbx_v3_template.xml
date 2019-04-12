@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2019-04-08T07:28:59Z</date>
+    <date>2019-04-12T06:04:20Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -80,7 +80,7 @@
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
-                            <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                            <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             <delay>1m</delay>
                             <history>7d</history>
                             <trends>0</trends>
@@ -163,7 +163,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                         <item_prototype>
@@ -212,7 +212,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                         <item_prototype>
@@ -261,7 +261,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                         <item_prototype>
@@ -310,7 +310,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                         <item_prototype>
@@ -359,7 +359,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                         <item_prototype>
@@ -408,7 +408,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                         <item_prototype>
@@ -457,7 +457,7 @@
                             <jmx_endpoint/>
                             <application_prototypes/>
                             <master_item_prototype>
-                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PID},app_tomcat]</key>
+                                <key>custom.tomcat_thread_status.item[{#TOMCAT_PATH},app_tomcat]</key>
                             </master_item_prototype>
                         </item_prototype>
                     </item_prototypes>
