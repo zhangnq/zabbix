@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//ExternalScripts/mongodb_select_time.py=utf-8
+encoding//alertscripts/wechat.py=utf-8
 encoding//scripts/flink_web.py=utf-8
 encoding//scripts/mdb_sstat.py=UTF8
 encoding//scripts/mysql_status.py=UTF8
