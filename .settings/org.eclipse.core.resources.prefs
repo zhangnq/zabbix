@@ -4,6 +4,7 @@ encoding//ExternalScripts/mongodb_select_time.py=utf-8
 encoding//ExternalScripts/redis_get.py=utf-8
 encoding//alertscripts/wechat.py=utf-8
 encoding//scripts/flink_web.py=utf-8
+encoding//scripts/hpssacli_physicaldrive_detail.py=utf-8
 encoding//scripts/mdb_sstat.py=UTF8
 encoding//scripts/mysql_status.py=UTF8
 encoding//scripts/qiueer/__init__.py=utf-8
