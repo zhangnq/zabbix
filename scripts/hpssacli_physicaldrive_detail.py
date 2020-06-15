@@ -11,6 +11,7 @@ from qiueer.python.cmds import cmds
 #zabbix ALL=(root) NOPASSWD:/usr/sbin/hpssacli
 #Defaults:zabbix   !requiretty
 ####
+# hpssacli安装：https://zhangnq.com/3267.html
 
 def get_pd_list(slot):
     cmdstr = "sudo /usr/sbin/hpssacli controller slot={} physicaldrive all show detail|grep physicaldrive".format(slot)
